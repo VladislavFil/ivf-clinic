@@ -41,24 +41,119 @@
     </div>
     <!-- Site wrapper-->
     <div class="wrapper">
-      <header class="header header-temp" data-anim="fadeIn" data-delay="0.6" data-clear>
+      <header class="header" data-anim="fadeIn" data-delay="0.6" data-clear>
         <div class="header__inner">
           <div class="header__container container">
             <div class="header__container-inner">
               <div class="header__left">
                 <div class="header__logo"><a class="header-logo__link" href="/"><img class="header-logo__image-desktop" src="assets/img/icons/logo-dark.svg" alt="IVF клиника"><img class="header-logo__image-mobile" src="assets/img/icons/logo-short-dark.svg" alt="IVF клиника"></a></div>
+                <div class="header__menu-back" data-menu-back>
+                  <div class="header__menu-back-icon">
+                    <svg class="sprite-icon sprite-ic-arrow-left">
+                      <use xlink:href="assets/img/spritemap.svg#ic-arrow-left"></use>
+                    </svg>
+                  </div>Назад
+                </div>
               </div>
               <div class="header__right">
                 <div class="header__right-top">
                   <div class="header__nav">
                     <nav class="nav-header">
                       <ul class="nav-list">
-                        <li class="nav-item"><a class="nav-link" href="about.html">О компании</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">О клинике
+                            <svg class="sprite-icon sprite-ic-chevron-down nav-dropdown__arrow">
+                              <use xlink:href="assets/img/spritemap.svg#ic-chevron-down"></use>
+                            </svg></a>
+                          <div class="nav-dropdown">
+                            <ul class="nav-dropdown__list">
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">О клинике</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">О клинике</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="licenses.html">Лицензии
+                            <svg class="sprite-icon sprite-ic-chevron-down nav-dropdown__arrow">
+                              <use xlink:href="assets/img/spritemap.svg#ic-chevron-down"></use>
+                            </svg></a>
+                          <div class="nav-dropdown">
+                            <ul class="nav-dropdown__list">
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Лицензии</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Лицензии</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="specialists.html">Специалисты
+                            <svg class="sprite-icon sprite-ic-chevron-down nav-dropdown__arrow">
+                              <use xlink:href="assets/img/spritemap.svg#ic-chevron-down"></use>
+                            </svg></a>
+                          <div class="nav-dropdown">
+                            <ul class="nav-dropdown__list">
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Репродуктологи</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Врачи функциональной диагностики</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Анестезиологи</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Эмбриологи</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Генетики</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Лаборанты</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Средний мед. персонал</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Администраторы и персональные менеджеры</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Все специалисты</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="prices.html">Цены</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="appointment.html">Запись на прием
+                            <svg class="sprite-icon sprite-ic-chevron-down nav-dropdown__arrow">
+                              <use xlink:href="assets/img/spritemap.svg#ic-chevron-down"></use>
+                            </svg></a>
+                          <div class="nav-dropdown">
+                            <ul class="nav-dropdown__list">
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Запись на прием</a></li>
+                              <li class="nav-dropdown__item"><a class="nav-dropdown__link" href="#">Запись на прием</a></li>
+                            </ul>
+                          </div>
+                        </li>
                       </ul>
                     </nav>
                   </div>
                   <div class="header__language">
                     <div class="language"><a class="language__link" href="#">en</a><span>|</span><a class="language__link is-active" href="#">ru</a><span>|</span><a class="language__link" href="#">uz</a></div>
+                  </div>
+                </div>
+                <div class="header__right-bottom">
+                  <div class="header__links"><a class="header__link" href="#">
+                      <svg class="sprite-icon sprite-ic-gallery header__link-icon">
+                        <use xlink:href="assets/img/spritemap.svg#ic-gallery"></use>
+                      </svg>
+                      <div class="header__link-text">Галерея клиники</div></a><a class="header__link" href="#">
+                      <svg class="sprite-icon sprite-ic-phone header__link-icon">
+                        <use xlink:href="assets/img/spritemap.svg#ic-phone"></use>
+                      </svg>
+                      <div class="header__link-text">Наши Контакты</div></a><a class="header__link" href="#">
+                      <svg class="sprite-icon sprite-ic-person header__link-icon">
+                        <use xlink:href="assets/img/spritemap.svg#ic-person"></use>
+                      </svg>
+                      <div class="header__link-text">Информация для пациентов</div></a></div>
+                  <div class="header__search">
+                    <form class="search-block__form" name="search" data-search-block>
+                      <div class="search-block__inner">
+                        <input class="search-block__input" type="text" placeholder="Поиск" name="search">
+                        <button class="btn btn-xs btn-primary _icon search-block__button-submit" type="submit"><span class="btn-icon">
+                            <svg class="sprite-icon sprite-ic-loop">
+                              <use xlink:href="assets/img/spritemap.svg#ic-loop"></use>
+                            </svg></span>
+                        </button>
+                      </div>
+                      <div class="search-block__open">
+                        <button class="btn btn-xs btn-primary _icon search-block__button-open" type="button"><span class="btn-icon">
+                            <svg class="sprite-icon sprite-ic-loop">
+                              <use xlink:href="assets/img/spritemap.svg#ic-loop"></use>
+                            </svg></span>
+                        </button>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -67,6 +162,11 @@
                       <svg class="sprite-icon sprite-ic-phone">
                         <use xlink:href="assets/img/spritemap.svg#ic-phone"></use>
                       </svg></span></a>
+                  <button class="btn btn-xs btn-primary _icon"><span class="btn-icon">
+                      <svg class="sprite-icon sprite-ic-loop">
+                        <use xlink:href="assets/img/spritemap.svg#ic-loop"></use>
+                      </svg></span>
+                  </button>
                 </div>
                 <div class="header__sandwich">
                   <div class="sandwich" aria-label="Меню" data-menu-trigger>
@@ -171,46 +271,168 @@
           </div>
         </section>
       </main>
-      <footer class="footer-temp" data-anim="fade">
+      <footer class="footer">
         <div class="container">
-          <div class="footer-temp__inner">
-            <div class="footer-temp__left">
-              <div class="footer-temp__logo"><img loading="lazy" src="assets/img/icons/logo-dark.svg" alt="#"></div>
+          <div class="footer__inner">
+            <div class="footer__top">
+              <div class="footer__logo"><a class="footer__logo-link" href="/"><img loading="lazy" src="assets/img/icons/logo-dark.svg" alt="#"></a></div>
+              <div class="footer__nav">
+                <nav class="nav-footer">
+                  <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="licenses.html">Лицензии</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Цены</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Галерея клиники</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Информация для пациентов</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Наши Контакты</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </div>
-            <div class="footer-temp__right">
-              <div class="footer-temp__items">
-                <div class="footer-temp__item">
-                  <div class="footer-temp__item-icon">
-                    <svg class="sprite-icon sprite-ic-location">
-                      <use xlink:href="assets/img/spritemap.svg#ic-location"></use>
-                    </svg>
-                  </div>
-                  <div class="footer-temp__item-text">г. Ташкент, Алмазарский р-н,<br>ул. Уста-Алим, 17.</div>
-                </div>
-                <div class="footer-temp__item">
-                  <div class="footer-temp__item-icon">
-                    <svg class="sprite-icon sprite-ic-phone">
-                      <use xlink:href="assets/img/spritemap.svg#ic-phone"></use>
-                    </svg>
-                  </div>
-                  <div class="footer-temp__item-text">
-                    <p><a class="link link-dark" href="tel:111">(+998) 71 231-00-57</a><span> (регистратура)</span></p>
-                    <p><a class="link link-dark" href="tel:111">(+998) 71 231-00-56</a><span> (Call-центр)</span></p>
+            <div class="footer__middle">
+              <div class="footer__items" data-acc-footer>
+                <div class="footer__item" data-acc-item>
+                  <div class="footer__item-title">О клинике</div>
+                  <div class="footer__item-list-wrapper">
+                    <ul class="footer__item-list">
+                      <li><a href="#">Общая информация</a></li>
+                      <li><a href="#">Видеоролик Экскурсия по Клинике</a></li>
+                      <li><a href="#">Почему именно наша Клиника</a></li>
+                      <li><a href="#">Идентификация пациентов в клинике,информация об IVF ID</a></li>
+                      <li><a href="#">Time lapse технология: Embryoscope, MIRI-TL</a></li>
+                      <li><a href="#">Возможности поиска тестикулярных сперматозоидов</a></li>
+                    </ul>
                   </div>
                 </div>
-                <div class="footer-temp__item">
-                  <div class="footer-temp__item-icon">
-                    <svg class="sprite-icon sprite-ic-mail">
-                      <use xlink:href="assets/img/spritemap.svg#ic-mail"></use>
-                    </svg>
+                <div class="footer__item" data-acc-item>
+                  <div class="footer__item-title">Специалисты</div>
+                  <div class="footer__item-list-wrapper">
+                    <ul class="footer__item-list">
+                      <li><a href="#">Репродуктологи</a></li>
+                      <li><a href="#">Врачи Функциональной диагностики</a></li>
+                      <li><a href="#">Анестезиологи</a></li>
+                      <li><a href="#">Эмбриологи</a></li>
+                      <li><a href="#">Генетики</a></li>
+                      <li><a href="#">Лаборанты</a></li>
+                      <li><a href="#">Средний мед. персонал</a></li>
+                      <li><a href="#">Администраторы и персональные менеджеры</a></li>
+                      <li><a href="#">Все специалисты</a></li>
+                    </ul>
                   </div>
-                  <div class="footer-temp__item-text"><a class="link link-dark" href="mailto:KlinicIVF@gmail.com">KlinicIVF@gmail.com</a></div>
                 </div>
-              </div><a class="btn btn-md btn-primary-hollow" href="#"><span class="btn-text">Лицензии</span></a>
+                <div class="footer__item" data-acc-item>
+                  <div class="footer__item-title">Услуги</div>
+                  <div class="footer__item-list-wrapper">
+                    <ul class="footer__item-list">
+                      <li><a href="#">ВРТ</a></li>
+                      <li><a href="#">ЭКО</a></li>
+                      <li><a href="#">Предимплантационное генетическое теститрование</a></li>
+                      <li><a href="#">Тест на беременность (ХГЧ)</a></li>
+                      <li><a href="#">УЗИ контроль на беременность (21 день)</a></li>
+                      <li><a href="#">Искуственная (внутриматочная) инсеминация</a></li>
+                      <li><a href="#">Мифы</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer__item footer__item-registration">
+                  <div class="footer__item-title">Запись на прием</div>
+                  <ul class="footer__item-list">
+                    <li>
+                      <p>Записаться по телефону<br><a href="tel:+79828797862">+7 982 879 78 62</a></p>
+                    </li>
+                    <li><a href="#">Записаться онлайн</a></li>
+                    <li><a href="#">Записаться через<br>Телеграм-Bot</a></li>
+                    <li><a href="#">Запись через агрегатора</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </footer>
+    </div>
+    <!-- Popup: Форма обратной связи-->
+    <div class="popup popup--sm mfp-hide" id="feedback">
+      <div class="popup-content">
+        <div class="form form--popup">
+          <div class="form-label">
+            <div class="form-label__icon"><i class="icon-phone"></i>
+            </div>
+            <div class="form-label__title">ЗАКАЗАТЬ<br>ОБРАТНЫЙ<br>ЗВОНОК</div>
+            <div class="form-label__subtitle">Наши специалисты всегда рады ответить на ваши вопросы</div>
+          </div>
+          <form class="form-form" action="#" data-validate>
+            <div class="form-groups">
+                      <div class="form-group">
+                        <div class="form-input form-input--gray form-input--sm">
+                          <div class="form-input__inner">
+                            <input class="form-input__input" type="text" name="name" required>
+                            <div class="form-input__label">Имя *</div>
+                            <div class="form-input__messages"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-input form-input--gray form-input--sm">
+                          <div class="form-input__inner">
+                            <input class="form-input__input" type="tel" name="phone" minlength="16" required>
+                            <div class="form-input__label">Телефон *</div>
+                            <div class="messages"></div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+            <div class="form-submit">
+                      <button class="btn btn-md btn-primary form-submit__btn  _icon-right" type="submit"><span class="btn-icon">
+                          <svg class="sprite-icon sprite-icon-arrow-narrow-right">
+                            <use xlink:href="assets/img/spritemap.svg#icon-arrow-narrow-right"></use>
+                          </svg></span><span class="btn-text">Связаться</span>
+                      </button>
+            </div>
+                    <div class="form-policy form-policy--text">
+                      <div class="form-policy__text">Нажимая на кнопку, вы даете согласие на <a href="#">обработку персональных данных</a></div>
+                    </div>
+          </form>
+          <div class="form-bottom">
+            <div class="form-bottom__icon"><i class="icon-Icontick-circle"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popup: Успех-->
+    <div class="popup popup-message popup-success mfp-hide" id="success">
+      <div class="popup-message__inner">
+        <div class="popup-message__icon"><i class="icon-send-2"></i>
+        </div>
+        <div class="popup-message__content">
+          <div class="popup-message__title">Ваша заявка<br>была отправлена</div>
+          <div class="popup-message__text">Наши специалисты свяжутся с вами в ближайшее время</div>
+          <div class="popup-message__close">
+            <button class="btn btn-md btn-primary" data-popup-dismiss=""><span class="btn-text">Закрыть</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popup: Ошибка-->
+    <div class="popup popup-message popup-error mfp-hide" id="error">
+      <div class="popup-message__inner">
+        <div class="popup-message__icon"><i class="icon-close-circle"></i>
+        </div>
+        <div class="popup-message__content">
+          <div class="popup-message__title">Заявка<br>не отправлена</div>
+          <div class="popup-message__text">Произошла ошибка на сервере</div>
+          <div class="popup-message__close">
+            <button class="btn btn-md btn-primary" data-popup-dismiss=""><span class="btn-text">Закрыть</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
